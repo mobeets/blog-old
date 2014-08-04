@@ -1,3 +1,5 @@
+---
+---
 /*****************************************************************************/
 /*
 /* Common
@@ -17,7 +19,7 @@ html, body {
 
 body {
   background-color: white;
-  background-image:url('/images/tmp.jpg');
+  background-image:url('{{ BASE_PATH }}/images/tmp.jpg');
   font-family: 'Georgia', serif;
   *font-size: small;
   text-align: center;
