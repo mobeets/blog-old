@@ -17,8 +17,7 @@ html, body {
 
 body {
   background-color: white;
-  /*background-image:url('/images/tmp.jpg');*/
-  /*font: 13.34px helvetica, arial, clean, sans-serif;*/
+  background-image:url('/images/tmp.jpg');
   font-family: 'Georgia', serif;
   *font-size: small;
   text-align: center;
@@ -109,14 +108,24 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
+  background-color: white;
   font-size: 110%;
   text-align: justify;
   width: 40em;
-  padding-top: 5%;
   line-height: 1.5em;
   margin: 0 auto;
+  padding: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
+.content {
+  overflow: hidden;
+
+}
   .site .meta {
     color: #aaa;
   }
