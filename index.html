@@ -7,7 +7,7 @@ tagline:
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <div class="title-preview"><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></div>
+  <div class="title-preview"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
   <p class="meta">
     <span class="date">{{ post.date | date: "%Y %B %d" }}</span>
     {% if post.location %}{{ post.location }}{% endif %}
