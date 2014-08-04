@@ -16,22 +16,25 @@
    <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
    <!-- <script type="text/javascript">try{Typekit.load();}catch(e){}</script> -->
    <link rel="shortcut icon" href="/favicon.ico">
+   <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
-
   <div class="site">
-    <div class="title">
-      <a href="{{ HOME_PATH }}">{{ site.title }}</a>
-
+    <div class="menu">
+      <h1><a href="{{ HOME_PATH }}">{{ site.title }}</a></h1>
+<!--
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a>
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.pages_path }}">Pages</a>
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a>
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a>
+-->
     </div>
   
     {{ content }}
   
     <div class="footer">
+      <!-- <hr> -->
+      This page is hosted on <a href="https://github.com/mobeets/blog" target="_blank">GitHub</a>.
     </div>
   </div>
   {% include JB/analytics %}

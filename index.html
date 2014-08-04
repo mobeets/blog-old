@@ -7,7 +7,7 @@ tagline:
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <div class="title-preview"><a href="{{ post.url }}">{{ post.title }}</a></div>
   <p class="meta">
     <span class="date">{{ post.date | date: "%Y %B %d" }}</span>
     {% if post.location %}{{ post.location }}{% endif %}
@@ -15,7 +15,6 @@ tagline:
   <div class="content">
     {{ post.content }}
   </div>
-</div>
 {% endfor %}
 
 <!-- Pagination links -->
