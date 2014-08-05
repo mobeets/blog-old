@@ -15,6 +15,7 @@ author :
   email : mobeets@gmail.com
   github : mobeets
   twitter : jehosafet
+  feedburner : star-afire-explosion
 
 paginate: 5
 paginate_path: "/page:num"
